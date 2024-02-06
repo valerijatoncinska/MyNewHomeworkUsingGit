@@ -8,7 +8,7 @@ public class OOPTestRun {
         Pokemon[] pokedex = new Pokemon[3];
         pokedex[0] = new Pokemon("Bulbasaur", 40, 10, 5, new String[]{"Overgrow"}, 30);
         pokedex[1] = new Pokemon("Beedrill", 30, 30, 5, new String[]{"Swarm"}, 50);
-        pokedex[2] = new Pokemon("Alakazam", 40, 20, 8, new String[]{"Inner Focus"}, 50);
+        pokedex[2] = new Pokemon("Alakazam", 40, 20, 8, new String[]{"Inner Focus"}, 40);
 
         Scanner scanner = new Scanner(System.in);
 
