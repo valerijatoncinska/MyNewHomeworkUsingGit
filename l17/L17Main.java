@@ -6,6 +6,7 @@ import MyNewHomeworkUsingGit.l17.people.Man;
 import MyNewHomeworkUsingGit.l17.transport.Bike;
 import MyNewHomeworkUsingGit.l17.transport.Bus;
 import MyNewHomeworkUsingGit.l17.transport.Car;
+import MyNewHomeworkUsingGit.l17.transport.MyCarList;
 
 public class L17Main {
     public static void main(String[] args) {
@@ -31,8 +32,22 @@ public class L17Main {
         Bus busCompany = new Bus("WeMakeBuses!", 4);
         System.out.println(busCompany);
 
-        Car weSellVeryOldCars = new Car("Very Old Betty", 99);
-        System.out.println(weSellVeryOldCars);
+        Car volvo = new Car("volvo", 99);
+        Car bMW = new Car("bMW", 29);
+        Car toyota = new Car("toyota", 989);
+        Car bentley = new Car("bentley", 12);
+        Car honda = new Car("honda", 1);
+
+        MyCarList aLotOfCars = new MyCarList();
+
+        aLotOfCars.addCar(volvo);
+        aLotOfCars.addCar(bMW);
+        aLotOfCars.addCar(toyota);
+        aLotOfCars.addCar(bentley);
+        aLotOfCars.addCar(honda);
+
+
+        System.out.println(aLotOfCars);
 
     }
 }
