@@ -1,4 +1,5 @@
 package MyNewHomeworkUsingGit.l17;
+
 import MyNewHomeworkUsingGit.l17.animal.Cat;
 import MyNewHomeworkUsingGit.l17.animal.Cow;
 import MyNewHomeworkUsingGit.l17.animal.Dog;
@@ -7,17 +8,17 @@ import MyNewHomeworkUsingGit.l17.transport.Bike;
 import MyNewHomeworkUsingGit.l17.transport.Bus;
 import MyNewHomeworkUsingGit.l17.transport.Car;
 import MyNewHomeworkUsingGit.l17.transport.MyCarList;
+import org.junit.jupiter.api.Assertions;
 
 public class L17Main {
     public static void main(String[] args) {
-
         Cat simon = new Cat("Simon", 12);
         System.out.println(simon);
 
-        Cow burionka = new Cow ("Burionka", 12);
+        Cow burionka = new Cow("Burionka", 12);
         System.out.println(burionka);
 
-        Dog luna = new Dog ("Luna", 7);
+        Dog luna = new Dog("Luna", 7);
         System.out.println(luna);
 
         Man karl = new Man("Karl", 99);
@@ -30,7 +31,7 @@ public class L17Main {
         System.out.println(bikeCompany);
 
         Bus busCompany = new Bus("WeMakeBuses!", 4);
-        System.out.println(busCompany);
+        System.out.println(busCompany + "\n\n\n\n\n");
 
         Car volvo = new Car("volvo", 99);
         Car bMW = new Car("bMW", 29);
@@ -46,8 +47,8 @@ public class L17Main {
         aLotOfCars.addCar(bentley);
         aLotOfCars.addCar(honda);
 
+        aLotOfCars.printTheList();
 
-        System.out.println(aLotOfCars);
 
     }
 }

@@ -6,7 +6,7 @@ public class MyCarList {
 
     Car[] carList;
     int carListInitialSize = 5;
-    private int count = 0;
+    public int count = 0;
 
     public MyCarList() {
         carList= new Car[carListInitialSize];
