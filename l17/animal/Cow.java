@@ -1,15 +1,17 @@
 package MyNewHomeworkUsingGit.l17.animal;
 
-public class Cow {
-    String name;
-    int age;
+public class Cow extends Animal {
+    String favouriteFood;
+    int yearsOnTheFarm;
 
-    public Cow(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public Cow(String name, int age, String breed, String favouriteFood, int yearsOnTheFarm) {
+        super(name, age, breed);
+        this.favouriteFood = favouriteFood;
+        this.yearsOnTheFarm = yearsOnTheFarm;
     }
 
     public String toString() {
-        return "Cow, " + this.name + ", " + age;
+        return "Cow. Name is " + this.name + ". Age is " + this.age + ". Breed is " + this.breed + ". Favourite food is " +
+                this.favouriteFood + ". Amount of years lived on this farm is " + this.yearsOnTheFarm;
     }
 }

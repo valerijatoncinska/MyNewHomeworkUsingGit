@@ -1,15 +1,18 @@
 package MyNewHomeworkUsingGit.l17.transport;
 
-public class Car {
-    String manufacturer;
-    int age;
+public class Car extends Transport {
+    String ownerFamilyName;
+    int howBigIsOwnerFamily;
 
-    public Car (String name, int age) {
-        this.manufacturer = name;
-        this.age = age;
+    public Car(String manufacturer, String condition, String ownerFamilyName, int howBigIsOwnerFamily) {
+        super(manufacturer, condition);
+        this.ownerFamilyName = ownerFamilyName;
+        this.howBigIsOwnerFamily = howBigIsOwnerFamily;
     }
 
     public String toString() {
-        return "Car, " + this.manufacturer + ", " + age;
+        return "Car. Model is " + this.manufacturer + ". Is in " + this.condition + " condition." +
+                " Car belongs to " + this.ownerFamilyName + " family. There is " +
+                this.howBigIsOwnerFamily + " people in the family";
     }
 }
