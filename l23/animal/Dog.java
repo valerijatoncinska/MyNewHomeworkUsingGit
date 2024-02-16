@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.animal;
+package MyNewHomeworkUsingGit.l23.animal;
 
 public class Dog extends Animal {
     String favouriteToy;
@@ -16,5 +16,10 @@ public class Dog extends Animal {
         return "Dog. Name is " + this.name + ". Age is " + this.age + ". Breed is " + this.breed + ". Favourite toy " +
                 this.favouriteToy + ". Amount of destroyed couches is " + this.destroyedCouchesCount +
                 ". Amount of successful food thefts is " + this.stolenFoodCount + ".";
+    }
+
+    protected void makesSound (){
+        super.makesSound();
+        System.out.println(this.name + " barking\n");
     }
 }

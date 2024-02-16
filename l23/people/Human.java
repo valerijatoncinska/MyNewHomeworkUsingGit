@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.people;
+package MyNewHomeworkUsingGit.l23.people;
 
 public class Human {
     String name;
@@ -8,5 +8,9 @@ public class Human {
         this.name = name;
         this.gender = gender;
         this.age = age;
+    }
+
+    protected void occupation (){
+        System.out.println("Exists");
     }
 }

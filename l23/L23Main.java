@@ -1,18 +1,17 @@
-package MyNewHomeworkUsingGit.l17;
+package MyNewHomeworkUsingGit.l23;
 
-import MyNewHomeworkUsingGit.l17.animal.Cat;
-import MyNewHomeworkUsingGit.l17.animal.Cow;
-import MyNewHomeworkUsingGit.l17.animal.Dog;
-import MyNewHomeworkUsingGit.l17.people.Old;
-import MyNewHomeworkUsingGit.l17.people.Adult;
-import MyNewHomeworkUsingGit.l17.people.Child;
-import MyNewHomeworkUsingGit.l17.transport.Bike;
-import MyNewHomeworkUsingGit.l17.transport.Bus;
-import MyNewHomeworkUsingGit.l17.transport.Car;
-import MyNewHomeworkUsingGit.l17.transport.MyCarList;
-import org.junit.jupiter.api.Assertions;
+import MyNewHomeworkUsingGit.l23.animal.Cat;
+import MyNewHomeworkUsingGit.l23.animal.Cow;
+import MyNewHomeworkUsingGit.l23.animal.Dog;
+import MyNewHomeworkUsingGit.l23.people.Old;
+import MyNewHomeworkUsingGit.l23.people.Adult;
+import MyNewHomeworkUsingGit.l23.people.Child;
+import MyNewHomeworkUsingGit.l23.transport.Bike;
+import MyNewHomeworkUsingGit.l23.transport.Bus;
+import MyNewHomeworkUsingGit.l23.transport.Car;
+import MyNewHomeworkUsingGit.l23.transport.MyCarList;
 
-public class L17Main {
+public class L23Main {
     public static void main(String[] args) {
 
         Cat simon = new Cat("Simon", 2, "a Bengal", "Yes", 8, 5);
@@ -78,7 +77,5 @@ public class L17Main {
         aLotOfCars.addCar(honda);
 
         aLotOfCars.printTheList();
-
-
     }
 }

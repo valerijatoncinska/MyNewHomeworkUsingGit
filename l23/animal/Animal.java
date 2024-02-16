@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.animal;
+package MyNewHomeworkUsingGit.l23.animal;
 
 public class Animal {
     String name;
@@ -9,5 +9,8 @@ public class Animal {
         this.name = name;
         this.age = age;
         this.breed = breed;
+    }
+    protected void makesSound (){
+        System.out.println(this.name + " makes a random sound\n");
     }
 }

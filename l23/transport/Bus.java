@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.transport;
+package MyNewHomeworkUsingGit.l23.transport;
 
 public class Bus extends Transport {
     String usedForWhat;
@@ -13,5 +13,9 @@ public class Bus extends Transport {
     public String toString() {
         return "Bus. Model is " + this.manufacturer + ". Is in " + this.condition + " condition." +
                 " Seat count is " + this.seatCount + ". Used for " + this.usedForWhat;
+    }
+    protected void specialThingsItCanDo(){
+        super.specialThingsItCanDo();
+        System.out.println("Opens doors to let people in or out.");
     }
 }

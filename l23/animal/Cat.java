@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.animal;
+package MyNewHomeworkUsingGit.l23.animal;
 
 public class Cat extends Animal {
     String meowsALotOrNo;
@@ -16,5 +16,10 @@ public class Cat extends Animal {
         return "Cat. Name is " + this.name + ". Age is " + this.age + ". Breed is " + this.breed + ". Does it meow a lot? - " +
                 this.meowsALotOrNo + ". Amount of destroyed vases is " + this.destroyedVasesCount +
                 ". Amount of successful food thefts is " + this.stolenFoodCount + ".";
+    }
+
+    protected void makesSound (){
+        super.makesSound();
+        System.out.println(this.name + " meowing\n");
     }
 }

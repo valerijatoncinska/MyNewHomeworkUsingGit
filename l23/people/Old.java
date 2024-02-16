@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.people;
+package MyNewHomeworkUsingGit.l23.people;
 public class Old extends Human {
     String isGrumpyOrNo;
     int pension;
@@ -12,5 +12,10 @@ public class Old extends Human {
     public String toString() {
         return "Old human. Name is " + this.name + "Is a " + this.gender + ". Age is " + this.age +
                 ". Are they grumpy? - " + this.isGrumpyOrNo + "The pension is " + this.pension + " EURO";
+    }
+
+    protected void occupation (){
+        super.occupation();
+        System.out.println(this.name + " is relaxing\n");
     }
 }

@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.transport;
+package MyNewHomeworkUsingGit.l23.transport;
 
 public class Bike extends Transport {
     String ownersName;
@@ -12,4 +12,9 @@ public class Bike extends Transport {
         return "Bike. Model is " + this.manufacturer + ". Is in " + this.condition + " condition." +
                 " Owner is  " + this.ownersName;
     }
+    protected void specialThingsItCanDo(){
+        super.specialThingsItCanDo();
+        System.out.println("Drifts really good");
+    }
+
 }

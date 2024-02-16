@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.l17.transport;
+package MyNewHomeworkUsingGit.l23.transport;
 
 public class Transport {
     String manufacturer;
@@ -7,5 +7,9 @@ public class Transport {
     public Transport(String name, String condition) {
         this.manufacturer = name;
         this.condition = condition;
+    }
+
+    protected void specialThingsItCanDo(){
+        System.out.println("Random purpose");
     }
 }
