@@ -15,22 +15,22 @@ public class WorkingField {
         AbstractCircleExample c2 = new AbstractCircleExample("Abstract Circle number 1", 12, 11);
         c2.draw();
         c2.getArea();
-        c2.getPerimetr();
+        c2.getPerimeter();
 
         AbstractCircleExample c3 = new AbstractCircleExample("Abstract Circle number 2", 6, 6);
         c3.draw();
         c3.getArea();
-        c3.getPerimetr();
+        c3.getPerimeter();
 
         AbstractSquareExample s2 = new AbstractSquareExample("Abstract Square number 1", 12, 11);
         s2.draw();
         s2.getArea();
-        s2.getPerimetr();
+        s2.getPerimeter();
 
         AbstractSquareExample s3 = new AbstractSquareExample("Abstract Square number 1", 20, 11);
         s3.draw();
         s3.getArea();
-        s3.getPerimetr();
+        s3.getPerimeter();
 
     }
 }

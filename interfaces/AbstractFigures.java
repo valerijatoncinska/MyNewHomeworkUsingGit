@@ -12,7 +12,7 @@ abstract public class AbstractFigures {
     }
 
     abstract void draw();
-    abstract void getPerimetr();
+    abstract void getPerimeter();
     abstract void getArea();
 
     public String toString(){
@@ -34,7 +34,7 @@ class AbstractCircleExample extends AbstractFigures {
     }
 
     @Override
-    void getPerimetr() {
+    void getPerimeter() {
         System.out.println("The perimeter of this circle is " + (2 * pNumber * radius));
     }
 
@@ -55,7 +55,7 @@ class AbstractSquareExample extends AbstractFigures {
     }
 
     @Override
-    void getPerimetr() {
+    void getPerimeter() {
         System.out.println("The perimeter of this square is " + sideX * 4);
     }
 
