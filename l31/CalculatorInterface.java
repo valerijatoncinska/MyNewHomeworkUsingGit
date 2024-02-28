@@ -52,6 +52,25 @@ class Main99 {
                         "12 x 4 = " + resultMultiply + "\n" +
                         "8 / 2 = " + resultDivide + "\n"
         );
+    }
+}
+
+class Main66 {
+    public static void main(String[] args) {
+
+        // определение новых лямбд для сложения, вычитания, умножения и деления
+        CalculatorInterface add = (a,b) -> a + b;
+        CalculatorInterface subtract = (a,b) -> a - b;
+        CalculatorInterface multiply = (a,b) -> a * b;
+        CalculatorInterface divide = (a,b) -> a / b;
+
+        // вынесение результатов в консоль
+        System.out.println(
+                "3 + 4 = " + add.operate(3,4) + "\n" +
+                        "9 - 4 = " + subtract.operate(9,4) + "\n" +
+                        "12 x 4 = " + multiply.operate(12,4) + "\n" +
+                        "8 / 2 = " + divide.operate(8,2) + "\n"
+        );
 
     }
 }
