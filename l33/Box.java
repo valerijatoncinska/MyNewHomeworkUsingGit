@@ -28,7 +28,6 @@ public class Box<T> {
         return differentStringBox.get().toString();
     }
 
-    // преобразовать любой объект к указанному типу
     public static <T> T getValue(Object obj) {
         return (T) obj;
     }
