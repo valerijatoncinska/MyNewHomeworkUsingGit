@@ -77,5 +77,7 @@ public class L23Main {
         aLotOfCars.addCar(honda);
 
         aLotOfCars.printTheList();
+
+        System.out.println(pumpkin.hashCode());
     }
 }

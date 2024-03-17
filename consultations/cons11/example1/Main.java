@@ -1,4 +1,4 @@
-package MyNewHomeworkUsingGit.concultation9.example1;
+package MyNewHomeworkUsingGit.consultations.cons11.example1;
 
 public class Main {
     public static void main(String[] args) {
